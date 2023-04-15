@@ -11,7 +11,9 @@ apps:
   ag:
     command: usr/local/bin/ag
     plugs:
+      - optical-drive
       - process-control
+      - removable-media
       - system-backup
 
 parts:
