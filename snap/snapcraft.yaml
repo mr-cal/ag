@@ -4,12 +4,15 @@ summary: The Silver Searcher
 description: A code searching tool similar to ack, with a focus on speed.
 base: core22
 
-confinement: devmode
-grade: devel
+confinement: strict
+grade: stable
 
 apps:
   ag:
     command: usr/local/bin/ag
+    plugs:
+      - process-control
+      - system-backup
 
 parts:
   ag:
@@ -17,7 +20,7 @@ parts:
     source: https://github.com/ggreer/the_silver_searcher.git
     source-depth: 1
     build-packages:
-      - pkg-config
-      - libpcre3-dev
-      - zlib1g-dev
       - liblzma-dev
+      - libpcre3-dev
+      - pkg-config
+      - zlib1g-dev
