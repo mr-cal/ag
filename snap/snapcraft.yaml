@@ -1,4 +1,4 @@
-name: ag
+name: the-silver-searcher-ag
 version: '2.2.0'
 summary: The Silver Searcher
 description: A code searching tool similar to ack, with a focus on speed.
@@ -8,7 +8,7 @@ confinement: strict
 grade: stable
 
 apps:
-  ag:
+  the-silver-searcher-ag:
     command: usr/local/bin/ag
     plugs:
       - optical-drive
