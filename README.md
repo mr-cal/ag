@@ -69,7 +69,7 @@ If you have any questions, [post in the Snapcraft forum](https://forum.snapcraft
 
 ## The Snapcrafters
 
-| [![mr-cal](https://gravatar.com/callahankovacs/?s=128)](https://github.uom/mr-cal/) |
+| [![mr-cal](https://gravatar.com/avatar/callahankovacs/?s=128)](https://github.com/mr-cal/) |
 | :---: |
 | [mr-cal](https://github.com/mr-cal/) |
 
